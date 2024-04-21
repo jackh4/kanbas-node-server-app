@@ -3,7 +3,7 @@ import * as dao from "./dao.js";
 export default function CourseRoutes(app) {
     const findAllCourses = async (req, res) => {
         const courses = await dao.findAllCourses();
-        res.json(courses)
+        res.json(courses);
     };
     const createCourse = async (req, res) => {
         const course = await dao.createCourse(req.body);
@@ -11,12 +11,12 @@ export default function CourseRoutes(app) {
     };
     const deleteCourse = async (req, res) => {
         const status = await dao.deleteCourse(req.params.courseId);
-        res.json(status)
+        res.json(status);
     };
     const updateCourse = async (req, res) => {
         const { courseId } = req.params;
         const status = await dao.updateCourse(courseId, req.body);
-        res.json(status)
+        res.json(status);
     };
     app.get("/api/courses", findAllCourses);
     app.post("/api/courses", createCourse);
