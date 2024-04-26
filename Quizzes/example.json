@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Q1",
+        "description": "",
+        "quizType": "GRADED_QUIZ",
+        "points": 0,
+        "assignmentGroup": "QUIZZES",
+        "shuffleAnswers": true,
+        "timeLimit": 20,
+        "multipleAttempts": false,
+        "showCorrectAnswers": "",
+        "accessCode": "",
+        "oneQuestionPerTime": true,
+        "webcamRequired": false,
+        "lockQuestions": false,
+        "dueDate": "2023-01-10",
+        "availableDate": "2023-01-10",
+        "untilDate": "2023-01-10",
+        "questions": [],
+        "published": false,
+        "course": "RS101"
+    }
+]
